@@ -2,6 +2,8 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import yaml from "js-yaml";
+import removeMd from "remove-markdown";
+
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
 
@@ -11,6 +13,7 @@ export type PostContent = {
   readonly slug: string;
   readonly tags?: string[];
   readonly fullPath: string;
+  readonly plainText: string;
 };
 
 let postCache: PostContent[];
@@ -31,17 +34,10 @@ export function fetchPostContent(): PostContent[] {
       // Use gray-matter to parse the post metadata section
       const matterResult = matter(fileContents, {
         engines: {
-          yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
+          yaml: (s) => yaml.load(s, { schema: yaml.CORE_SCHEMA }) as object,
         },
       });
-      const matterData = matterResult.data as {
-        date: string;
-        title: string;
-        tags: string[];
-        slug: string;
-        fullPath: string,
-      };
-      matterData.fullPath = fullPath;
+      const matterData = {...matterResult.data, fullPath, plainText: removeMd(matterResult.content).substr(0, 200) + "..."} as PostContent;
 
       const slug = fileName.replace(/\.mdx$/, "");
 
