@@ -7,9 +7,7 @@ type Props = {
   post: PostContent;
 };
 export default function PostItem({ post }: Props) {
-  return (
-    <div>
-      {/* <Link href={"/posts/" + post.slug}>
+  {/* <Link href={"/posts/" + post.slug}>
         <a>
           <Date date={parseISO(post.date)} />
           <h2>{post.title}</h2>
@@ -28,8 +26,11 @@ export default function PostItem({ post }: Props) {
         </a>
       </Link> */}
       {/* <textarea>{JSON.stringify(post, null, 2)}</textarea> */}
+  return (
+      
       <div
-        className="h-column h-column-container d-flex h-col-lg-4 h-col-md-6 h-col-12 post-290 post type-post status-publish format-standard has-post-thumbnail hentry category-proyectos-y-tareas-de-la-ampa masonry-item style-290-outer style-local-161-c59-outer"
+        style={{marginBottom: "30px"}}
+        className="postItem h-column h-column-container d-flex h-col-lg-4 h-col-md-6 h-col-12 post-290 post type-post status-publish format-standard has-post-thumbnail hentry category-proyectos-y-tareas-de-la-ampa masonry-item style-290-outer style-local-161-c59-outer"
         // style={{
         //   position: "absolute",
         //   left: "0%",
@@ -60,7 +61,7 @@ export default function PostItem({ post }: Props) {
                   <img
                     width={1420}
                     height={664}
-                    src="https://via.placeholder.com/322x181"
+                    src={post.image || "https://via.placeholder.com/322x181"}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt=""
                     
@@ -200,6 +201,6 @@ export default function PostItem({ post }: Props) {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }

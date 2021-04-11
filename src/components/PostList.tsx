@@ -16,14 +16,14 @@ type Props = {
 export default function PostList({ posts, tags, pagination }: Props) {
   return (
     <div className={"container"}>
-      <div className={"posts"}>
-        <ul className={"post-list"}>
+      <div className={"posts"} style={{display: "flex", flexDirection: "row", flexWrap: "wrap"}}>
+        {/* <ul className={"post-list"}> */}
           {posts.map((it, i) => (
-            <li key={i}>
-              <PostItem post={it} />
-            </li>
+            // <li key={i}>
+              <PostItem post={it}  key={i}/>
+            // </li>
           ))}
-        </ul>
+        {/* </ul> */}
         <Pagination
           current={pagination.current}
           pages={pagination.pages}

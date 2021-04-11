@@ -14,6 +14,7 @@ export type PostContent = {
   readonly tags?: string[];
   readonly fullPath: string;
   readonly plainText: string;
+  readonly image?: string;
 };
 
 let postCache: PostContent[];
