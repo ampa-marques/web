@@ -1,13 +1,9 @@
 tags:
-  - slug: document
-    name: document
-  - slug: mock
-    name: mock
-  - slug: style
-    name: style
-  - slug: license
-    name: license
-  - slug: mdx
-    name: mdx
-  - slug: markdown
-    name: markdown
+  - slug: actividadesyeventos
+    name: Actividades y eventos
+  - slug: proyectosytareasdelaampa
+    name: Proyectos y tareas de la Ampa
+  - slug: escueladefamilias
+    name: Escuela de familias
+  - slug: informacionpractica
+    name: Información práctica
