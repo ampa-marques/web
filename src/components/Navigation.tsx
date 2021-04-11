@@ -68,7 +68,7 @@ export default function Navigation() {
                       {/**/}
                       <a
                         rel="home"
-                        href="/"
+                        href="/" 
                         h-use-smooth-scroll="true"
                         className="d-flex align-items-center"
                       >
