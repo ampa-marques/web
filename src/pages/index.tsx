@@ -124,13 +124,7 @@ export default function Index({ posts, tags, pagination }: Props) {
           type="text/css"
           media="all"
         />
-        <link
-          rel="stylesheet"
-          id="extend_builder_-fonts-css"
-          href="./AMPA CEIP Primer Marqués del Túria – Todos somos AMPA_files/css"
-          type="text/css"
-          media="all"
-        />
+
 
         <link
           rel="stylesheet"
@@ -327,14 +321,14 @@ export default function Index({ posts, tags, pagination }: Props) {
                                         </li>
                                       </ul>
                                     </li>
-                                    <li
+                                    {/* <li
                                       id="menu-item-275"
                                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"
                                     >
                                       <a href="http://krisish-oo5s.localhost.run/extraescolares/">
                                         Extraescolares
                                       </a>
-                                    </li>
+                                    </li> */}
                                     <li
                                       id="menu-item-276"
                                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"
@@ -536,7 +530,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                             <span className="h-button__outer style-29-outer style-local-137-h29-outer d-inline-flex h-element">
                               <a
                                 h-use-smooth-scroll="true"
-                                href="http://krisish-oo5s.localhost.run/ampa/asociate/"
+                                href="https://ampa-marques.web.app/"
                                 data-colibri-id="137-h29"
                                 className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-29 style-local-137-h29 position-relative"
                               >
@@ -897,13 +891,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 <div className="h-image__frame-container">
                                   {/**/}
                                   {/**/}
-                                  <img
-                                    src="http://ampa.local/wp-content/uploads/2020/02/adorable-baby-beautiful-child-277149.jpg"
-                                    className="wp-image-199 style-204-image style-local-161-c23-image"
-                                    srcSet="http://krisish-oo5s.localhost.run/wp-content/uploads/2020/02/adorable-baby-beautiful-child-277149.jpg 640w, http://krisish-oo5s.localhost.run/wp-content/uploads/2020/02/adorable-baby-beautiful-child-277149-200x300.jpg 200w"
-                                    sizes="(max-width: 640px) 100vw, 640px"
-                                    alt=""
-                                  />
+                                  <img src="./images/adorable-baby-beautiful-child-277149.jpg" className="wp-image-199 style-204-image style-local-161-c23-image" srcSet="./images/adorable-baby-beautiful-child-277149.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w" sizes="(max-width: 640px) 100vw, 640px" alt=""/>
+
                                   <div className="h-image__frame h-image__frame_shadow h-hide-sm style-204-frameImage style-local-161-c23-frameImage" />
                                 </div>
                               </div>

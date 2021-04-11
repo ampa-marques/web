@@ -1186,7 +1186,7 @@ body h6 {
     min-height: unset;
     background-position: top left;
     background-size: cover;
-    background-image: url("http://krisish-oo5s.localhost.run/wp-content/uploads/2020/02/cropped-white-smartphone-1851415-scaled-1.jpg");
+    background-image: url("../images/cropped-white-smartphone-1851415-scaled-1.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     color: #17252a;
@@ -2031,7 +2031,7 @@ body h6 {
     color: #FFFFFF;
     background-position: 52.24647759569451% 0%;
     background-size: cover;
-    background-image: url("http://krisish-oo5s.localhost.run/wp-content/uploads/2020/02/cropped-colegio.jpg");
+    background-image: url("../images/cropped-colegio.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
     padding-top: 180px;
@@ -2476,4 +2476,19 @@ body h6 {
     #colibri .style-local-161-c83-outer {
         width: 60%;
     }
+}
+
+
+
+			#colibri .style-204-frameImage {
+background-color: green;
+}
+#colibri .style-210-icon {
+fill: green;
+}
+.overlay-image-layer {
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 155, 0, 0.8) 100%) !important;
+}
+#colibri .style-263 {
+	background-image: linear-gradient(-120deg, rgba(0, 0, 0, 1) 0%, rgba(0, 155, 0, 1) 100%) !important;
 }
