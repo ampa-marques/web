@@ -1226,7 +1226,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                       >
                                         {/**/}
                                         <div className="h-global-transition-all h-contact-form-shortcode h-global-transition h-global-transition-all">
-                                          <form name="contact" method="POST" data-netlify="true">
+                                          <form name="contact" method="POST" data-netlify="true" action="/">
+                                          <input type="hidden" name="form-name" value="contact">
                                             <p>
                                               <label>Tu nombre: <input type="text" name="name" /></label>
                                             </p>
