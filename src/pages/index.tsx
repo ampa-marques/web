@@ -57,41 +57,41 @@ export default function Index({ posts, tags, pagination }: Props) {
           rel="alternate"
           type="application/rss+xml"
           title="AMPA CEIP Primer Marqués del Túria » Feed"
-          href="http://krisish-oo5s.localhost.run/feed/"
+          href="/feed/"
         />
         <link
           rel="alternate"
           type="application/rss+xml"
           title="AMPA CEIP Primer Marqués del Túria » Comments Feed"
-          href="http://krisish-oo5s.localhost.run/comments/feed/"
+          href="/comments/feed/"
         />
         <link
           rel="https://api.w.org/"
-          href="http://krisish-oo5s.localhost.run/wp-json/"
+          href="/wp-json/"
         />
         <link
           rel="EditURI"
           type="application/rsd+xml"
           title="RSD"
-          href="http://krisish-oo5s.localhost.run/xmlrpc.php?rsd"
+          href="/xmlrpc.php?rsd"
         />
         <link
           rel="wlwmanifest"
           type="application/wlwmanifest+xml"
-          href="http://krisish-oo5s.localhost.run/wp-includes/wlwmanifest.xml"
+          href="/wp-includes/wlwmanifest.xml"
         />
         <meta name="generator" content="WordPress 5.3.6" />
-        <link rel="canonical" href="http://krisish-oo5s.localhost.run/" />
-        <link rel="shortlink" href="http://krisish-oo5s.localhost.run/" />
+        <link rel="canonical" href="/" />
+        <link rel="shortlink" href="/" />
         <link
           rel="alternate"
           type="application/json+oembed"
-          href="http://krisish-oo5s.localhost.run/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F"
+          href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F"
         />
         <link
           rel="alternate"
           type="text/xml+oembed"
-          href="http://krisish-oo5s.localhost.run/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F&format=xml"
+          href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F&format=xml"
         />
 
         <script src="./js/wp-emoji-release.min.js" type="text/javascript" />
@@ -134,13 +134,13 @@ export default function Index({ posts, tags, pagination }: Props) {
           media="all"
         />
       </Head>
-      {/* saved from url=(0052)http://krisish-oo5s.localhost.run/?cache-buster=1797 */}
+      {/* saved from url=(0052)/?cache-buster=1797 */}
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <div className="site new-stacking-context" id="page-top">
         <a
           className="skip-link screen-reader-text"
-          href="http://krisish-oo5s.localhost.run/?cache-buster=1797#content"
+          href="/?cache-buster=1797#content"
         >
           Skip to content{" "}
         </a>
@@ -150,7 +150,7 @@ export default function Index({ posts, tags, pagination }: Props) {
           className="page-header style-1 style-local-137-h1 position-relative h-footer-parallax-header-class"
         >
           {/**/}
-          <Navigation/>
+          <Navigation />
           <div
             data-colibri-id="137-h24"
             id="hero"
@@ -365,7 +365,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                             >
                               {/**/}
                               <a
-                                href="http://krisish-oo5s.localhost.run/extraescolares"
+                                href="/extraescolares"
                                 h-use-smooth-scroll="true"
                               >
                                 <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c5-icon">
@@ -389,7 +389,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               {/**/}
                               {/**/}
                               <a
-                                href="http://krisish-oo5s.localhost.run/extraescolares"
+                                href="/extraescolares"
                                 h-use-smooth-scroll="true"
                               >
                                 <h5>EXTRAESCOLARES</h5>
@@ -473,7 +473,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                             >
                               {/**/}
                               <a
-                                href="http://krisish-oo5s.localhost.run/comedor"
+                                href="/comedor"
                                 h-use-smooth-scroll="true"
                               >
                                 <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c13-icon">
@@ -497,7 +497,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               {/**/}
                               {/**/}
                               <a
-                                href="http://krisish-oo5s.localhost.run/comedor"
+                                href="/comedor"
                                 h-use-smooth-scroll="true"
                               >
                                 <h5>COMEDOR</h5>
@@ -531,7 +531,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                             >
                               {/**/}
                               <a
-                                href="http://krisish-oo5s.localhost.run/ampa/calendario"
+                                href="/ampa/calendario"
                                 h-use-smooth-scroll="true"
                               >
                                 <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c17-icon">
@@ -555,7 +555,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               {/**/}
                               {/**/}
                               <a
-                                href="http://krisish-oo5s.localhost.run/ampa/calendario"
+                                href="/ampa/calendario"
                                 h-use-smooth-scroll="true"
                               >
                                 <h5>calendario</h5>
@@ -624,7 +624,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 <div className="h-image__frame-container">
                                   {/**/}
                                   {/**/}
-                                  <img src="./images/adorable-baby-beautiful-child-277149.jpg" className="wp-image-199 style-204-image style-local-161-c23-image" srcSet="./images/adorable-baby-beautiful-child-277149.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w" sizes="(max-width: 640px) 100vw, 640px" alt=""/>
+                                  <img src="./images/adorable-baby-beautiful-child-277149.jpg" className="wp-image-199 style-204-image style-local-161-c23-image" srcSet="./images/adorable-baby-beautiful-child-277149.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w" sizes="(max-width: 640px) 100vw, 640px" alt="" />
 
                                   <div className="h-image__frame h-image__frame_shadow h-hide-sm style-204-frameImage style-local-161-c23-frameImage" />
                                 </div>
@@ -940,7 +940,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 <span className="h-button__outer style-269-outer style-local-161-c54-outer d-inline-flex h-element">
                                   <a
                                     h-use-smooth-scroll="true"
-                                    href="http://krisish-oo5s.localhost.run/ampa/asociate"
+                                    href="http://ampa-marques.web.app/"
                                     data-colibri-id="161-c54"
                                     className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-269 style-local-161-c54 position-relative"
                                   >
@@ -1226,10 +1226,27 @@ export default function Index({ posts, tags, pagination }: Props) {
                                       >
                                         {/**/}
                                         <div className="h-global-transition-all h-contact-form-shortcode h-global-transition h-global-transition-all">
-                                          <p className="shortcode-placeholder-preview">
-                                            Please set the ‘Contact Form’
-                                            component shortcode
-                                          </p>
+                                          <form name="contact" method="POST" data-netlify="true">
+                                            <p>
+                                              <label>Tu nombre: <input type="text" name="name" /></label>
+                                            </p>
+                                            <p>
+                                              <label>Tu email: <input type="email" name="email" /></label>
+                                            </p>
+                                            {/* <p>
+                                              <label>Your Role: <select name="role[]" multiple></label>
+                                                <select name="role">
+                                                <option value="leader">Leader</option>
+                                                <option value="follower">Follower</option>
+                                              </select>
+                                            </p> */}
+                                            <p>
+                                              <label>Mensaje: <textarea name="message"></textarea></label>
+                                            </p>
+                                            <p>
+                                              <button type="submit">Enviar</button>
+                                            </p>
+                                          </form>
                                         </div>
                                       </div>
                                     </div>
@@ -1345,7 +1362,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                         {/**/}
                         <a
                           rel="home"
-                          href="http://krisish-oo5s.localhost.run/"
+                          href="/"
                           h-use-smooth-scroll="true"
                           className="d-flex align-items-center"
                         >
@@ -1382,7 +1399,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                 <div className="colibri-menu-container">
                   <ul id="menu-actividades-1" className="colibri-menu none ">
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-274">
-                      <a href="http://krisish-oo5s.localhost.run/ampa/">
+                      <a href="/ampa/">
                         AMPA
                         <div
                           data-skip-smooth-scroll={1}
@@ -1425,44 +1442,44 @@ export default function Index({ posts, tags, pagination }: Props) {
                       </a>
                       <ul className="sub-menu">
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-499">
-                          <a href="http://krisish-oo5s.localhost.run/ampa/">
+                          <a href="/ampa/">
                             Acerca del AMPA
                           </a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-358">
-                          <a href="http://krisish-oo5s.localhost.run/ampa/asociate/">
+                          <a href="/ampa/asociate/">
                             Asóciate
                           </a>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-315">
-                          <a href="http://krisish-oo5s.localhost.run/ampa/calendario/">
+                          <a href="/ampa/calendario/">
                             Calendario
                           </a>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-275">
-                      <a href="http://krisish-oo5s.localhost.run/extraescolares/">
+                      <a href="/extraescolares/">
                         Extraescolares
                       </a>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-276">
-                      <a href="http://krisish-oo5s.localhost.run/comedor/">
+                      <a href="/comedor/">
                         Comedor
                       </a>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-277">
-                      <a href="http://krisish-oo5s.localhost.run/colegio-2/">
+                      <a href="/colegio-2/">
                         Colegio
                       </a>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-278">
-                      <a href="http://krisish-oo5s.localhost.run/blog/">
+                      <a href="/blog/">
                         Noticias
                       </a>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382">
-                      <a href="http://krisish-oo5s.localhost.run/contacto/">
+                      <a href="/contacto/">
                         Contacto
                       </a>
                     </li>

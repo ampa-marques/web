@@ -131,7 +131,7 @@ export default function Navigation() {
                             id="menu-actividades"
                             className="colibri-menu bordered-active-item bordered-active-item--bottom effect-borders-grow grow-from-left"
                           >
-                            <li
+                            {/* <li
                               id="menu-item-274"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-274"
                             >
@@ -179,6 +179,7 @@ export default function Navigation() {
                                 </li>
                               </ul>
                             </li>
+                             */}
                             {/* <li
                               id="menu-item-275"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"
@@ -191,18 +192,18 @@ export default function Navigation() {
                               id="menu-item-276"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-276"
                             >
-                              <a href="http://krisish-oo5s.localhost.run/comedor/">
+                              <a href="/comedor">
                                 Comedor
                               </a>
                             </li>
-                            <li
+                            {/* <li
                               id="menu-item-277"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-277"
                             >
                               <a href="http://krisish-oo5s.localhost.run/colegio-2/">
                                 Colegio
                               </a>
-                            </li>
+                            </li> */}
                             <li
                               id="menu-item-278"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-278"
@@ -215,9 +216,9 @@ export default function Navigation() {
                               id="menu-item-382"
                               className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382"
                             >
-                              <a href="http://krisish-oo5s.localhost.run/contacto/">
+                              {/* <a href="http://krisish-oo5s.localhost.run/contacto/">
                                 Contacto
-                              </a>
+                              </a> */}
                             </li>
                           </ul>
                         </div>
