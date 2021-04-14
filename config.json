@@ -1,19 +1,25 @@
 {
-  "base_url": "https://wutali-nextjs-netlify-blog.netlify.app",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://ampa.primermarques.com",
+  "site_title": "AMPA Colegio Primer Marqués del Turia",
+  "site_description": "Conoce el AMPA del cole",
   "site_keywords": [
     {
-      "keyword": "Next.js"
+      "keyword": "AMPA"
     },
     {
-      "keyword": "Netlify"
+      "keyword": "AFA"
     },
     {
-      "keyword": "React"
+      "keyword": "FAMPA"
+    },
+    {
+      "keyword": "Colegio"
+    },
+    {
+      "keyword": "Primer Marqués del Turia"
     }
   ],
-  "posts_per_page": 5,
+  "posts_per_page": 6,
   "twitter_account": "@my-account",
-  "github_account": "wutali"
+  "github_account": "ampa-marques-user"
 }
