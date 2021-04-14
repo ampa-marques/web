@@ -9,7 +9,7 @@ export default function Layout({ children }: Props) {
     <div id="colibri">
       <Head>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
-        <title>AMPA CEIP Primer Marqués del Túria – Todos somos AMPA</title>
+        <title>AMPA CEP Primer Marqués del Túria – Todos somos AMPA</title>
 
         <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
         <link
@@ -24,13 +24,13 @@ export default function Layout({ children }: Props) {
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="AMPA CEIP Primer Marqués del Túria » Feed"
+          title="AMPA CEP Primer Marqués del Túria » Feed"
           href="http://krisish-oo5s.localhost.run/feed/"
         />
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="AMPA CEIP Primer Marqués del Túria » Comments Feed"
+          title="AMPA CEP Primer Marqués del Túria » Comments Feed"
           href="http://krisish-oo5s.localhost.run/comments/feed/"
         />
         <link
@@ -159,7 +159,7 @@ export default function Layout({ children }: Props) {
                         >
                           {/**/}
                           <div className="h-global-transition-all">
-                            © 2021 AMPA CEIP Primer Marqués del Túria. Created
+                            © 2021 AMPA CEP Primer Marqués del Túria. Created
                             for free using WordPress and
                             <a target="_blank" href="https://colibriwp.com/">
                               Colibri
