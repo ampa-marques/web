@@ -40,10 +40,10 @@ export default function Index({ posts, tags, pagination }: Props) {
   return (
     <div id="colibri">
       <Head>
-        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        {/* <link rel="profile" href="http://gmpg.org/xfn/11" /> */}
         <title>AMPA CEP Primer Marqués del Túria – Todos somos AMPA</title>
 
-        <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com/" />
         <link
           rel="stylesheet"
           id="extend_builder_-fonts-css"
@@ -52,7 +52,7 @@ export default function Index({ posts, tags, pagination }: Props) {
           media="all"
         />
 
-        <link rel="dns-prefetch" href="http://s.w.org/" />
+        {/* <link rel="dns-prefetch" href="https://s.w.org/" /> */}
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -94,7 +94,7 @@ export default function Index({ posts, tags, pagination }: Props) {
           href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F&format=xml"
         />
 
-        <script src="./js/wp-emoji-release.min.js" type="text/javascript" />
+        {/* <script src="./js/wp-emoji-release.min.js" type="text/javascript" />
         <script type="text/javascript" src="./js/jquery.js" />
         <script type="text/javascript" src="./js/jquery-migrate.min.js" />
         <script type="text/javascript" src="./js/imagesloaded.min.js" />
@@ -103,7 +103,7 @@ export default function Index({ posts, tags, pagination }: Props) {
         <script type="text/javascript" src="./js/typed.js" />
         <script type="text/javascript" src="./js/jquery.fancybox.min.js" />
         <script type="text/javascript" src="./js/theme.js" />
-        <script type="text/javascript" src="./js/wp-embed.min.js" />
+        <script type="text/javascript" src="./js/wp-embed.min.js" /> */}
         <link
           rel="stylesheet"
           id="extend-builder-css-css"
@@ -308,8 +308,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                       {/*Icon by Font Awesome (https://fontawesome.com)*/}
                       <svg
                         version="1.1"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        xmlns="https://www.w3.org/2000/svg"
+                        xmlnsXlink="https://www.w3.org/1999/xlink"
                         id="angle-down"
                         viewBox="0 0 1152 1896.0833"
                       >
@@ -372,8 +372,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                   <svg
                                     version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                                    xmlns="https://www.w3.org/2000/svg"
+                                    xmlnsXlink="https://www.w3.org/1999/xlink"
                                     id="dribbble"
                                     viewBox="0 0 1536 1896.0833"
                                   >
@@ -426,8 +426,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                 <svg
                                   version="1.1"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                                  xmlns="https://www.w3.org/2000/svg"
+                                  xmlnsXlink="https://www.w3.org/1999/xlink"
                                   id="sun-o"
                                   viewBox="0 0 1792 1896.0833"
                                 >
@@ -480,8 +480,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                   <svg
                                     version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                                    xmlns="https://www.w3.org/2000/svg"
+                                    xmlnsXlink="https://www.w3.org/1999/xlink"
                                     id="spoon"
                                     viewBox="0 0 1071.2946 1896.0833"
                                   >
@@ -538,8 +538,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                   <svg
                                     version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                                    xmlns="https://www.w3.org/2000/svg"
+                                    xmlnsXlink="https://www.w3.org/1999/xlink"
                                     id="calendar"
                                     viewBox="0 0 1672.2646 1896.0833"
                                   >
@@ -689,8 +689,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                           <svg
                                             version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                                            xmlns="https://www.w3.org/2000/svg"
+                                            xmlnsXlink="https://www.w3.org/1999/xlink"
                                             id="dribbble"
                                             viewBox="0 0 1536 1896.0833"
                                           >
@@ -740,8 +740,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                           <svg
                                             version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                                            xmlns="https://www.w3.org/2000/svg"
+                                            xmlnsXlink="https://www.w3.org/1999/xlink"
                                             id="star-o"
                                             viewBox="0 0 1664 1896.0833"
                                           >
@@ -792,8 +792,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           {/*Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)*/}
                                           <svg
                                             version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                                            xmlns="https://www.w3.org/2000/svg"
+                                            xmlnsXlink="https://www.w3.org/1999/xlink"
                                             id="comments"
                                             viewBox="0 0 512 545.5"
                                           >
@@ -843,8 +843,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           {/*Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)*/}
                                           <svg
                                             version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                                            xmlns="https://www.w3.org/2000/svg"
+                                            xmlnsXlink="https://www.w3.org/1999/xlink"
                                             id="building"
                                             viewBox="0 0 512 545.5"
                                           >
@@ -940,7 +940,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 <span className="h-button__outer style-269-outer style-local-161-c54-outer d-inline-flex h-element">
                                   <a
                                     h-use-smooth-scroll="true"
-                                    href="http://ampa-marques.web.app/"
+                                    href="https://ampa-marques.web.app/"
                                     data-colibri-id="161-c54"
                                     className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-269 style-local-161-c54 position-relative"
                                   >
@@ -1133,8 +1133,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           {/*Icon by Icons8 Line Awesome (https://icons8.com/line-awesome)*/}
                                           <svg
                                             version="1.1"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            xmlnsXlink="http://www.w3.org/1999/xlink"
+                                            xmlns="https://www.w3.org/2000/svg"
+                                            xmlnsXlink="https://www.w3.org/1999/xlink"
                                             id="comments"
                                             viewBox="0 0 512 545.5"
                                           >
@@ -1171,8 +1171,8 @@ export default function Index({ posts, tags, pagination }: Props) {
                                                 {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                                 <svg
                                                   version="1.1"
-                                                  xmlns="http://www.w3.org/2000/svg"
-                                                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                                                  xmlns="https://www.w3.org/2000/svg"
+                                                  xmlnsXlink="https://www.w3.org/1999/xlink"
                                                   id="facebook-square"
                                                   viewBox="0 0 1536 1896.0833"
                                                 >
@@ -1197,7 +1197,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                                   {/*Icon by Socicon (http://www.socicon.com)*/}
                                                   <svg
                                                     version="1.1"
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns="https://www.w3.org/2000/svg"
                                                     viewBox="0 0 1500 1500"
                                                   >
                                                     <path d="M799.805 922.852c-14.648 11.719-32.227 20.508-49.805 20.508s-35.156-8.789-49.805-20.508l-700.195-571.289v899.414h1500v-899.414zM750 750c14.648 0 29.297-5.859 41.016-14.648l594.727-486.328h-1271.484l594.727 486.328c11.719 8.789 26.367 14.648 41.016 14.648z" />
@@ -1412,7 +1412,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                             data-icon="angle-right"
                             className="svg-inline--fa fa-angle-right fa-w-8"
                             role="img"
-                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns="https://www.w3.org/2000/svg"
                             viewBox="0 0 256 512"
                           >
                             <path
@@ -1431,7 +1431,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                             data-icon="angle-down"
                             className="svg-inline--fa fa-angle-down fa-w-10"
                             role="img"
-                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns="https://www.w3.org/2000/svg"
                             viewBox="0 0 320 512"
                           >
                             <path

@@ -62,7 +62,7 @@ export default function Layout({ children }: Props) {
           href="http://krisish-oo5s.localhost.run/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F&format=xml"
         />
 
-        <script src="./js/wp-emoji-release.min.js" type="text/javascript" />
+        {/* <script src="./js/wp-emoji-release.min.js" type="text/javascript" />
         <script type="text/javascript" src="./js/jquery.js" />
         <script type="text/javascript" src="./js/jquery-migrate.min.js" />
         <script type="text/javascript" src="./js/imagesloaded.min.js" />
@@ -71,7 +71,7 @@ export default function Layout({ children }: Props) {
         <script type="text/javascript" src="./js/typed.js" />
         <script type="text/javascript" src="./js/jquery.fancybox.min.js" />
         <script type="text/javascript" src="./js/theme.js" />
-        <script type="text/javascript" src="./js/wp-embed.min.js" />
+        <script type="text/javascript" src="./js/wp-embed.min.js" /> */}
         <link
           rel="stylesheet"
           id="extend-builder-css-css"
@@ -265,7 +265,7 @@ export default function Layout({ children }: Props) {
                             data-icon="angle-right"
                             className="svg-inline--fa fa-angle-right fa-w-8"
                             role="img"
-                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns="https://www.w3.org/2000/svg"
                             viewBox="0 0 256 512"
                           >
                             <path
@@ -284,7 +284,7 @@ export default function Layout({ children }: Props) {
                             data-icon="angle-down"
                             className="svg-inline--fa fa-angle-down fa-w-10"
                             role="img"
-                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns="https://www.w3.org/2000/svg"
                             viewBox="0 0 320 512"
                           >
                             <path
