@@ -73,12 +73,12 @@ export default function Navigation() {
                         className="d-flex align-items-center"
                       >
                         <img
-                          src="./images/AMPA_LOGO_VERSION_BLANCO.png"
+                          src="/images/AMPA_LOGO_VERSION_BLANCO.png"
                           className="h-logo__image h-logo__image_h logo-image style-5-image style-local-137-h5-image"
                           alt=""
                         />
                         <img
-                          src="./images/AMPA_COLOR.jpg"
+                          src="/images/AMPA_COLOR.jpg"
                           className="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-5-image style-local-137-h5-image"
                           alt=""
                         />

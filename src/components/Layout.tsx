@@ -21,7 +21,7 @@ export default function Layout({ children }: Props) {
         />
 
         <link rel="dns-prefetch" href="http://s.w.org/" />
-        <link
+        {/* <link
           rel="alternate"
           type="application/rss+xml"
           title="AMPA CEP Primer Marqués del Túria » Feed"
@@ -47,8 +47,8 @@ export default function Layout({ children }: Props) {
           rel="wlwmanifest"
           type="application/wlwmanifest+xml"
           href="http://krisish-oo5s.localhost.run/wp-includes/wlwmanifest.xml"
-        />
-        <meta name="generator" content="WordPress 5.3.6" />
+        /> */}
+        {/* <meta name="generator" content="WordPress 5.3.6" />
         <link rel="canonical" href="http://krisish-oo5s.localhost.run/" />
         <link rel="shortlink" href="http://krisish-oo5s.localhost.run/" />
         <link
@@ -60,7 +60,7 @@ export default function Layout({ children }: Props) {
           rel="alternate"
           type="text/xml+oembed"
           href="http://krisish-oo5s.localhost.run/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fkrisish-oo5s.localhost.run%2F&format=xml"
-        />
+        /> */}
 
         {/* <script src="./js/wp-emoji-release.min.js" type="text/javascript" />
         <script type="text/javascript" src="./js/jquery.js" />
@@ -75,21 +75,21 @@ export default function Layout({ children }: Props) {
         <link
           rel="stylesheet"
           id="extend-builder-css-css"
-          href="./styles/theme.css"
+          href="/styles/theme.css"
           type="text/css"
           media="all"
         />
         <link
           rel="stylesheet"
           id="fancybox-css"
-          href="./styles/jquery.fancybox.min.css"
+          href="/styles/jquery.fancybox.min.css"
           type="text/css"
           media="all"
         />
         <link
           rel="stylesheet"
           id="wp-block-library-css"
-          href="./styles/style.min.css"
+          href="/styles/style.min.css"
           type="text/css"
           media="all"
         />
@@ -97,7 +97,7 @@ export default function Layout({ children }: Props) {
 
         <link
           rel="stylesheet"
-          href="./styles/index.css"
+          href="/styles/index.css"
           type="text/css"
           media="all"
         />
@@ -106,12 +106,12 @@ export default function Layout({ children }: Props) {
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <div className="site new-stacking-context" id="page-top">
-        <a
+        {/* <a
           className="skip-link screen-reader-text"
           href="http://krisish-oo5s.localhost.run/?cache-buster=1797#content"
         >
           Skip to content{" "}
-        </a>
+        </a> */}
         <div
           className="page-content h-footer-parallax-content-class"
           style={{ marginBottom: "117px" }}
@@ -216,17 +216,17 @@ export default function Layout({ children }: Props) {
                         {/**/}
                         <a
                           rel="home"
-                          href="http://krisish-oo5s.localhost.run/"
+                          href="/"
                           h-use-smooth-scroll="true"
                           className="d-flex align-items-center"
                         >
                           <img
-                            src="./images/AMPA_LOGO_VERSION_BLANCO.png"
+                            src="/images/AMPA_LOGO_VERSION_BLANCO.png"
                             className="h-logo__image h-logo__image_h logo-image style-14-image style-local-137-h15-image"
                             alt=""
                           />
                           <img
-                            src="./images/AMPA_COLOR.jpg"
+                            src="/images/AMPA_COLOR.jpg"
                             className="h-logo__alt-image h-logo__alt-image_h logo-alt-image style-14-image style-local-137-h15-image"
                             alt=""
                           />
