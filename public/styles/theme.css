@@ -2681,31 +2681,6 @@ html {
   .text-xl-justify {
     text-align: justify !important; } }
 
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  -webkit-overflow-scrolling: touch;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-div:before, ul:before, article:before, aside:before, details:before, figcaption:before, figure:before,
-footer:before, header:before, hgroup:before, menu:before, nav:before, section:before, div:after, ul:after, article:after, aside:after, details:after, figcaption:after, figure:after,
-footer:after, header:after, hgroup:after, menu:after, nav:after, section:after {
-  content: "";
-  display: table;
-  width: 0;
-  /** Fix for safari. On safari the after and before without this code added 1px*/
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0; }
-
-div:after, ul:after, article:after, aside:after, details:after, figcaption:after, figure:after,
-footer:after, header:after, hgroup:after, menu:after, nav:after, section:after {
-  clear: both; }
-
 img,
 video,
 audio {

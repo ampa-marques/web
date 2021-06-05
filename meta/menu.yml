@@ -1,0 +1,7 @@
+menu:
+  - slug: comedor
+    name: Comedor
+  - slug: colegio
+    name: Colegio
+  - slug: posts
+    name: Noticias
