@@ -52,8 +52,3 @@ a:hover {
 .video_container video{
   max-width: 100%;
 }
-
-/* ./styles/globals.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
