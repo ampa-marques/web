@@ -69,19 +69,24 @@ collections:
               - label: "Introduction"
                 name: "introduction"
                 widget: "text"
-      - name: menu
-        label: Menu
-        label_singular: "Page"
-        widget: list
+      - name: "menu"
+        label: "Menu"
+        file: "meta/menu.yml"
+        description: "Menu"
         fields:
-          - label: "Slug"
-            name: "slug"
-            widget: "string"
-            hint: "The part of a URL identifies the linked page"
-          - label: "Name"
-            name: "name"
-            widget: "string"
-            hint: "Text that will be displayed in the menu"
+          - name: menu
+            label: Menu
+            label_singular: "Page"
+            widget: list
+            fields:
+              - label: "Slug"
+                name: "slug"
+                widget: "string"
+                hint: "The part of a URL identifies the linked page"
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                hint: "Text that will be displayed in the menu"
       - name: "tags"
         label: "Tags"
         file: "meta/tags.yml"
