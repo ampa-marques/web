@@ -160,7 +160,8 @@ collections:
       - label: "Featured Image"
         name: "image"
         widget: "image"
-- name: "page"
+
+  - name: "page"
     label: "Page"
     folder: "content/pages/"
     extension: "mdx"
