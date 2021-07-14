@@ -2,11 +2,9 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import yaml from "js-yaml";
-import removeMd from "remove-markdown";
-
+import markdownToTxt from "markdown-to-txt";
 
 const pagesDirectory = path.join(process.cwd(), "content/pages");
-
 export type PageContent = {
   readonly date: string;
   readonly title: string;
@@ -31,24 +29,24 @@ export function fetchPageContent(): PageContent[] {
       // Read markdown file as string
       const fullPath = path.join(pagesDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
-
       // Use gray-matter to parse the page metadata section
       const matterResult = matter(fileContents, {
         engines: {
           yaml: (s) => yaml.load(s, { schema: yaml.CORE_SCHEMA }) as object,
         },
       });
-      const matterData = {...matterResult.data, fullPath, plainText: removeMd(matterResult.content).substr(0, 200) + "..."} as PageContent;
-
+      const matterData = {
+        ...matterResult.data,
+        fullPath,
+        plainText: markdownToTxt(matterResult.content).substr(0, 200) + "...",
+      } as PageContent;
       const slug = fileName.replace(/\.mdx$/, "");
-
       // Validate slug string
       if (matterData.slug !== slug) {
         throw new Error(
           "slug field not match with the path of its content source"
         );
       }
-
       return matterData;
     });
   // Sort pages by date

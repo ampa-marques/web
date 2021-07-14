@@ -2,8 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import yaml from "js-yaml";
-import removeMd from "remove-markdown";
-
+import markdownToTxt from "markdown-to-txt";
 
 const postsDirectory = path.join(process.cwd(), "content/posts");
 
@@ -38,7 +37,11 @@ export function fetchPostContent(): PostContent[] {
           yaml: (s) => yaml.load(s, { schema: yaml.CORE_SCHEMA }) as object,
         },
       });
-      const matterData = {...matterResult.data, fullPath, plainText: removeMd(matterResult.content).substr(0, 200) + "..."} as PostContent;
+      const matterData = {
+        ...matterResult.data,
+        fullPath,
+        plainText: markdownToTxt(matterResult.content).substr(0, 200) + "...",
+      } as PostContent;
 
       const slug = fileName.replace(/\.mdx$/, "");
 
