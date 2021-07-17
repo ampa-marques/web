@@ -1,4 +1,4 @@
-.content {
+/* .content {
   font-family: "Ubuntu", sans-serif;
   color: #222;
   font-weight: 200;
@@ -100,21 +100,7 @@
   border: 1px double #eee;
 }
 
-.content ol,
-.content ul {
-  padding: 0 0 0 1.5rem;
-  margin: 1.5rem 0 0 0;
-}
 
-.content ol li,
-.content ul li {
-  line-height: 1.5rem;
-}
-
-.content li ol,
-.content li ul {
-  margin: 0;
-}
 
 .content abbr[title] {
   text-decoration: underline double;
@@ -139,4 +125,21 @@
   .content h2::before {
     display: block;
   }
+} */
+
+.content ol,
+.content ul {
+  padding: 0 0 0 1.5rem;
+  margin: 1.5rem 0 0 0;
+  list-style: disc;
+}
+
+.content ol li,
+.content ul li {
+  line-height: 1.5rem;
+}
+
+.content li ol,
+.content li ul {
+  margin: 0;
 }

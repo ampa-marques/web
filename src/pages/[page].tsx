@@ -8,6 +8,8 @@ import fs from "fs";
 import yaml from "js-yaml";
 import { parseISO } from "date-fns";
 import PageLayout from "../components/PageLayout";
+import Card from "../components/Card";
+import Grid from "../components/Grid";
 
 import InstagramEmbed from "react-instagram-embed";
 import YouTube from "react-youtube";
@@ -27,7 +29,14 @@ export type Props = {
   image?: string;
 };
 
-const components = { InstagramEmbed, YouTube, TwitterTweetEmbed, ImageGallery };
+const components = {
+  InstagramEmbed,
+  YouTube,
+  TwitterTweetEmbed,
+  ImageGallery,
+  Grid,
+  Card,
+};
 const slugToPageContent = ((pageContents) => {
   let hash = {};
   pageContents.forEach((it) => (hash[it.slug] = it));
