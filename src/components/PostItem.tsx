@@ -99,7 +99,7 @@ export default function PostItem({ post }: Props) {
                         <div className="h-global-transition-all">
                           <a
                             className="d-inline-block colibri-post-category"
-                            href="http://krisish-oo5s.localhost.run/category/proyectos-y-tareas-de-la-ampa/"
+                            href={`posts/tags/${post.tags}`}
                           >
                             {post.tags}
                       </a>
