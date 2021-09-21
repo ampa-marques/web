@@ -171,7 +171,7 @@ export default function PostLayout({
         description={description}
       />
       <div className={"container"}>
-        <article>
+        <article className="text-left">
           <div className={styles.content}>{children}</div>
         </article>
         <footer>
