@@ -366,7 +366,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 <a
-                                  href="/extraescolares"
+                                  href="/2022-2023/OFERTA_EXTRAESCOLARES_2022_2023-1.pdf"
                                   h-use-smooth-scroll="true"
                                 >
                                   <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c5-icon">
@@ -532,7 +532,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 <a
-                                  href="/ampa/calendario"
+                                  href="https://calendar.google.com/calendar/u/0/embed?src=ampa@primermarques.com&ctz=Europe/Madrid"
                                   h-use-smooth-scroll="true"
                                 >
                                   <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c17-icon">
