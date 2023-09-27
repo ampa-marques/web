@@ -1160,7 +1160,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                         >
                                           {/**/}
                                           <div className="d-flex flex-wrap h-social-icons justify-content-lg-center justify-content-md-center justify-content-center">
-                                            <div className="social-icon-container d-inline-flex">
+                                            {/*<div className="social-icon-container d-inline-flex">
                                               <div className="icon-container h-social-icon h-global-transition">
                                                 <div
                                                   className="h-icon-svg"
@@ -1168,9 +1168,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                                                     width: "100%",
                                                     height: "100%",
                                                   }}
-                                                >
+                                                >*/}
                                                   {/*Icon by Font Awesome (https://fontawesome.com)*/}
-                                                  <svg
+                                            {/*<svg
                                                     version="1.1"
                                                     xmlns="https://www.w3.org/2000/svg"
                                                     xmlnsXlink="https://www.w3.org/1999/xlink"
@@ -1181,7 +1181,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                                   </svg>
                                                 </div>
                                               </div>
-                                            </div>
+                                            </div>*/}
                                             <div className="social-icon-container d-inline-flex">
                                               <a
                                                 href="mailto://ampa@primermarques.com"
