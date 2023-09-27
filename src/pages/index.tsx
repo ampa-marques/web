@@ -280,7 +280,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-30 style-local-137-h30 position-relative"
                                 >
                                   {/**/}
-                                  {/**/} <span>Accede a la Web</b> del Colegio</span>
+                                  {/**/} <span>Web Colegio</span>
                                 </a>
                               </span>
                             </div>
