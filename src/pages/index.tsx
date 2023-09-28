@@ -366,7 +366,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 <a
-                                  href="/2022-2023/OFERTA_EXTRAESCOLARES_2022_2023-1.pdf"
+                                  href="/extraescolares"
                                   h-use-smooth-scroll="true"
                                 >
                                   <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c5-icon">
