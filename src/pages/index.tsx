@@ -442,7 +442,12 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 {/**/}
+                                <a
+                                  href="/matinera"
+                                  h-use-smooth-scroll="true"
+                                >
                                 <h5>MATINERA</h5>
+                                </a>  
                               </div>
                               <div
                                 data-colibri-id="161-c11"
