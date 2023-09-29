@@ -89,6 +89,30 @@ export default function Index() {
                       <input type="submit" className="style-29" value="Ir a la App de Irco" name="castellano" id="castellano"/>
                     </form>
                 </div>*/}
+                {/*inicio enlace a Menu mensual*/}               
+ <div className="h-image__frame-container">
+                                    <a
+                                  href="/docs/MENU_OCTUBRE_2023.pdf"
+                                  h-use-smooth-scroll="true"
+                                  target="_blank"
+                                >
+                                    <img src="./images/menu.jpg" className="wp-image-199 style-204-image style-local-161-c23-image" srcSet="./images/menu.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w" sizes="(max-width: 640px) 100vw, 640px" alt="" />
+																		</a>
+                                    <div className="h-image__frame h-image__frame_shadow h-hide-sm style-204-frameImage style-local-161-c23-frameImage" />
+                                  </div>
+                                </div>
+                                <div>
+                                           <a
+                                  href="/docs/MENU_OCTUBRE_2023.pdf"
+                                  h-use-smooth-scroll="true"
+                                  target="_blank"
+                                >
+                                           <p>
+                                              MENÚ OCTUBRE 2023
+                                          </p>
+                                          </a>
+                                          </div>
+            {/*FIn enlace a menú mensual*/}
             </div>
         </Layout>
     );
