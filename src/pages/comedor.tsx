@@ -83,7 +83,8 @@ export default function Index() {
             <TwitterCardMeta url={url} title={title} />
             <div className="h-section-global-spacing">
                 <div className="h-section-grid-container h-section-boxed-container">
-                     <a download={true} style={{cursor: "pointer"}} href="/docs/MENU_OCTUBRE_2023.pdf"><img src="./images/menu.jpg" className="wp-image-199 style-204-image style-local-161-c23-image" srcSet="./images/menu.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w" sizes="(max-width: 640px) 100vw, 640px" alt="" /></b>MENÚ OCTUBRE 2023</a>
+			<img src="./images/menu.jpg"/>
+                     <a download={true} style={{cursor: "pointer"}} href="/docs/MENU_OCTUBRE_2023.pdf"></b>MENÚ OCTUBRE 2023</a>
 		    {/*<form id="formulario" action="http://62.4.6.255/webapp/login.php" method="POST" target="_blank" style={{textAlign: "center"}}>
                       <input type="hidden" id="nombredeusuario" name="nombredeusuario" value="va3048"/>
                       <input type="hidden" id="clave" name="clave" value="7597"/>
