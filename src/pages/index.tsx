@@ -278,6 +278,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   href="http://mestreacasa.gva.es/web/primermarquesdelturia"
                                   data-colibri-id="137-h30"
                                   className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-30 style-local-137-h30 position-relative"
+                                  target="_blank"
                                 >
                                   {/**/}
                                   {/**/} <span>Web Colegio</span>
