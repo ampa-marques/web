@@ -90,7 +90,7 @@ export default function Index() {
                     </form>
                 </div>*/}
                 {/*inicio enlace a Menu mensual*/}               
- <div className="h-image__frame-container">
+
                                     <a
                                   href="/docs/MENU_OCTUBRE_2023.pdf"
                                   h-use-smooth-scroll="true"
@@ -111,7 +111,7 @@ export default function Index() {
                                               MENÚ OCTUBRE 2023
                                           </p>
                                           </a>
-                                          </div>
+                                        
             {/*FIn enlace a menú mensual*/}
             </div>
         </Layout>
