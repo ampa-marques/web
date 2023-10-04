@@ -83,7 +83,7 @@ export default function Index() {
             <TwitterCardMeta url={url} title={title} />
             <div className="h-section-global-spacing">
                 <div className="h-section-grid-container h-section-boxed-container">
-                    <img src="/images/menu.jpg" alt="Menú del Comedor" title="menú mensual">
+                    <img src="/images/menu.jpg" alt="Menú del Comedor" title="menú mensual" />
                         {/*<form id="formulario" action="http://62.4.6.255/webapp/login.php" method="POST" target="_blank" style={{textAlign: "center"}}>
                       <input type="hidden" id="nombredeusuario" name="nombredeusuario" value="va3048"/>
                       <input type="hidden" id="clave" name="clave" value="7597"/>
