@@ -116,7 +116,7 @@ export default function Layout({ children }: Props) {
           className="page-content h-footer-parallax-content-class"
           style={{ marginBottom: "117px" }}
         >
-                  <div id="content" className="content">{children}</div>
+                  <div id="content" className="content" align="center">{children}</div>
         </div>
         {/* dynamic footer start */}
         <div
