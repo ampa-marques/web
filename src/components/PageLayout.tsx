@@ -189,6 +189,7 @@ export default function PostLayout({
             margin: 0 auto;
             padding: 0 1.5rem;
             box-sizing: border-box;
+            text-align: center;
           }
           .metadata div {
             display: inline-block;
