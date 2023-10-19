@@ -101,6 +101,7 @@ export default function Layout({ children }: Props) {
           type="text/css"
           media="all"
         />
+        <link rel="icon" type="image/jpg" href="/favicon.ico"/>
       </Head>
       {/* saved from url=(0052)http://krisish-oo5s.localhost.run/?cache-buster=1797 */}
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
