@@ -170,7 +170,7 @@ export default function PostLayout({
         date={date}
         description={description}
       />
-      <div className={"container"}">
+      <div className={"container"}>
         <article className="text-left">
           <div className={styles.content}>{children}</div>
         </article>
