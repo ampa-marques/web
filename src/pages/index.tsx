@@ -136,8 +136,7 @@ export default function Index({ posts, tags, pagination }: Props) {
             type="text/css"
             media="all"
           />
-          < link rel=“shortcut icon” href=“/favicon.ico” type=“image/x-icon”>
-          < link rel=“icon” href=“/favicon.ico” type=“image/x-icon”>
+         <link rel="icon" type="image/jpg" href="/favicon.ico"/>
         </Head>
         {/* saved from url=(0052)/?cache-buster=1797 */}
 
