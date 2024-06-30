@@ -260,7 +260,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               <span className="h-button__outer style-29-outer style-local-137-h29-outer d-inline-flex h-element">
                                 <a
                                   h-use-smooth-scroll="true"
-                                  href="https://https://ampa-marques.firebaseapp.com/"
+                                  href="https://ampa-marques.firebaseapp.com/"
                                   data-colibri-id="137-h29"
                                   className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-29 style-local-137-h29 position-relative"
                                 >
@@ -946,7 +946,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   <span className="h-button__outer style-269-outer style-local-161-c54-outer d-inline-flex h-element">
                                     <a
                                       h-use-smooth-scroll="true"
-                                      href="https://https://ampa-marques.firebaseapp.com/"
+                                      href="https://ampa-marques.firebaseapp.com/"
                                       data-colibri-id="161-c54"
                                       className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-269 style-local-161-c54 position-relative"
                                     >
