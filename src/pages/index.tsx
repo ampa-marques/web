@@ -68,10 +68,7 @@ export default function Index({ posts, tags, pagination }: Props) {
             title="AMPA CEP Primer Marqués del Túria » Comments Feed"
             href="/comments/feed/"
           />
-          <link
-            rel="https://api.w.org/"
-            href="/wp-json/"
-          />
+          <link rel="https://api.w.org/" href="/wp-json/" />
           <link
             rel="EditURI"
             type="application/rsd+xml"
@@ -128,7 +125,6 @@ export default function Index({ posts, tags, pagination }: Props) {
             type="text/css"
             media="all"
           />
-
 
           <link
             rel="stylesheet"
@@ -264,7 +260,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               <span className="h-button__outer style-29-outer style-local-137-h29-outer d-inline-flex h-element">
                                 <a
                                   h-use-smooth-scroll="true"
-                                  href="https://ampa-marques.web.app/"
+                                  href="https://https://ampa-marques.firebaseapp.com/"
                                   data-colibri-id="137-h29"
                                   className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-29 style-local-137-h29 position-relative"
                                 >
@@ -404,7 +400,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 {/**/}
                                 {/**/}
                                 <div>
-                                  <p>Calendario de actividades y normas de uso</p>
+                                  <p>
+                                    Calendario de actividades y normas de uso
+                                  </p>
                                 </div>
                               </div>
                             </div>
@@ -424,23 +422,20 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 className="h-icon style-178 style-local-161-c9 position-relative h-element"
                               >
                                 {/**/}
-                                 <a
-                                  href="/matinera"
-                                  h-use-smooth-scroll="true"
-                                >
-                                <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c9-icon">
-                                  {/*Icon by Font Awesome (https://fontawesome.com)*/}
-                                  <svg
-                                    version="1.1"
-                                    xmlns="https://www.w3.org/2000/svg"
-                                    xmlnsXlink="https://www.w3.org/1999/xlink"
-                                    id="sun-o"
-                                    viewBox="0 0 1792 1896.0833"
-                                  >
-                                    <path d="M1472 896q0-117-45.5-223.5t-123-184-184-123T896 320t-223.5 45.5-184 123-123 184T320 896t45.5 223.5 123 184 184 123T896 1472t223.5-45.5 184-123 123-184T1472 896zm276 277q-4 15-20 20l-292 96v306q0 16-13 26-15 10-29 4l-292-94-180 248q-10 13-26 13t-26-13l-180-248-292 94q-14 6-29-4-13-10-13-26v-306l-292-96q-16-5-20-20-5-17 4-29l180-248L48 648q-9-13-4-29 4-15 20-20l292-96V197q0-16 13-26 15-10 29-4l292 94L870 13q9-12 26-12t26 12l180 248 292-94q14-6 29 4 13 10 13 26v306l292 96q16 5 20 20 5 16-4 29l-180 248 180 248q9 12 4 29z" />
-                                  </svg>
-                                </span>
-                                   </a>
+                                <a href="/matinera" h-use-smooth-scroll="true">
+                                  <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c9-icon">
+                                    {/*Icon by Font Awesome (https://fontawesome.com)*/}
+                                    <svg
+                                      version="1.1"
+                                      xmlns="https://www.w3.org/2000/svg"
+                                      xmlnsXlink="https://www.w3.org/1999/xlink"
+                                      id="sun-o"
+                                      viewBox="0 0 1792 1896.0833"
+                                    >
+                                      <path d="M1472 896q0-117-45.5-223.5t-123-184-184-123T896 320t-223.5 45.5-184 123-123 184T320 896t45.5 223.5 123 184 184 123T896 1472t223.5-45.5 184-123 123-184T1472 896zm276 277q-4 15-20 20l-292 96v306q0 16-13 26-15 10-29 4l-292-94-180 248q-10 13-26 13t-26-13l-180-248-292 94q-14 6-29-4-13-10-13-26v-306l-292-96q-16-5-20-20-5-17 4-29l180-248L48 648q-9-13-4-29 4-15 20-20l292-96V197q0-16 13-26 15-10 29-4l292 94L870 13q9-12 26-12t26 12l180 248 292-94q14-6 29 4 13 10 13 26v306l292 96q16 5 20 20 5 16-4 29l-180 248 180 248q9 12 4 29z" />
+                                    </svg>
+                                  </span>
+                                </a>
                               </div>
                               <div
                                 data-colibri-id="161-c10"
@@ -448,12 +443,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 {/**/}
-                                <a
-                                  href="/matinera"
-                                  h-use-smooth-scroll="true"
-                                >
-                                <h5>MATINERA</h5>
-                                </a>  
+                                <a href="/matinera" h-use-smooth-scroll="true">
+                                  <h5>MATINERA</h5>
+                                </a>
                               </div>
                               <div
                                 data-colibri-id="161-c11"
@@ -464,7 +456,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 <div>
                                   <p>
                                     Servicio de cuidado de niños de 8:00 a 9:00
-                                </p>
+                                  </p>
                                 </div>
                               </div>
                             </div>
@@ -484,10 +476,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 className="h-icon style-178 style-local-161-c13 position-relative h-element"
                               >
                                 {/**/}
-                                <a
-                                  href="/comedor"
-                                  h-use-smooth-scroll="true"
-                                >
+                                <a href="/comedor" h-use-smooth-scroll="true">
                                   <span className="h-svg-icon h-icon__icon style-178-icon style-local-161-c13-icon">
                                     {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                     <svg
@@ -508,10 +497,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 {/**/}
-                                <a
-                                  href="/comedor"
-                                  h-use-smooth-scroll="true"
-                                >
+                                <a href="/comedor" h-use-smooth-scroll="true">
                                   <h5>COMEDOR</h5>
                                 </a>
                               </div>
@@ -590,7 +576,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                       }}
                                     >
                                       Días festivos, y actividades programadas
-                                  </span>
+                                    </span>
                                   </p>
                                 </div>
                               </div>
@@ -636,7 +622,13 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   <div className="h-image__frame-container">
                                     {/**/}
                                     {/**/}
-                                    <img src="./images/adorable-baby-beautiful-child-277149.jpg" className="wp-image-199 style-204-image style-local-161-c23-image" srcSet="./images/adorable-baby-beautiful-child-277149.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w" sizes="(max-width: 640px) 100vw, 640px" alt="" />
+                                    <img
+                                      src="./images/adorable-baby-beautiful-child-277149.jpg"
+                                      className="wp-image-199 style-204-image style-local-161-c23-image"
+                                      srcSet="./images/adorable-baby-beautiful-child-277149.jpg 640w, ./images/adorable-baby-beautiful-child-277149-200x300.jpg 200w"
+                                      sizes="(max-width: 640px) 100vw, 640px"
+                                      alt=""
+                                    />
 
                                     <div className="h-image__frame h-image__frame_shadow h-hide-sm style-204-frameImage style-local-161-c23-frameImage" />
                                   </div>
@@ -670,10 +662,10 @@ export default function Index({ posts, tags, pagination }: Props) {
                                 {/**/}
                                 <div>
                                   <p>
-                                    Somos un grupo de madres y padres que queremos
-                                    aportar nuestro grano de arena en el entorno
-                                    educativo de nuestros hijos.
-                                </p>
+                                    Somos un grupo de madres y padres que
+                                    queremos aportar nuestro grano de arena en
+                                    el entorno educativo de nuestros hijos.
+                                  </p>
                                 </div>
                               </div>
                               <div
@@ -728,7 +720,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                             <p>
                                               Organizamos las actividades
                                               extraescolares en el centro
-                                          </p>
+                                            </p>
                                           </div>
                                         </div>
                                       </div>
@@ -780,7 +772,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                               Navidad, Fallas, Verano, todo
                                               momento es bueno para estrechar
                                               lazos
-                                          </p>
+                                            </p>
                                           </div>
                                         </div>
                                       </div>
@@ -829,9 +821,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           {/**/}
                                           <div>
                                             <p>
-                                              Escuela de madres y padres, lista de
-                                              email, WhatsApp…
-                                          </p>
+                                              Escuela de madres y padres, lista
+                                              de email, WhatsApp…
+                                            </p>
                                           </div>
                                         </div>
                                       </div>
@@ -882,7 +874,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                             <p>
                                               Colaboramos con la mejora y
                                               mantenimiento del cole
-                                          </p>
+                                            </p>
                                           </div>
                                         </div>
                                       </div>
@@ -929,7 +921,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                               >
                                 {/**/}
                                 {/**/}
-                                <h2>Asociarte a la AMPA tiene muchas ventajas</h2>
+                                <h2>
+                                  Asociarte a la AMPA tiene muchas ventajas
+                                </h2>
                               </div>
                             </div>
                           </div>
@@ -952,7 +946,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                   <span className="h-button__outer style-269-outer style-local-161-c54-outer d-inline-flex h-element">
                                     <a
                                       h-use-smooth-scroll="true"
-                                      href="https://ampa-marques.web.app/"
+                                      href="https://https://ampa-marques.firebaseapp.com/"
                                       data-colibri-id="161-c54"
                                       className="d-flex w-100 align-items-center h-button justify-content-lg-center justify-content-md-center justify-content-center style-269 style-local-161-c54 position-relative"
                                     >
@@ -1163,7 +1157,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                           <h5>
                                             Mándanos un email o utiliza los
                                             formularios en esta web
-                                        </h5>
+                                          </h5>
                                         </div>
                                         <div
                                           data-colibri-id="161-c82"
@@ -1180,7 +1174,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                                                     height: "100%",
                                                   }}
                                                 >*/}
-                                                  {/*Icon by Font Awesome (https://fontawesome.com)*/}
+                                            {/*Icon by Font Awesome (https://fontawesome.com)*/}
                                             {/*<svg
                                                     version="1.1"
                                                     xmlns="https://www.w3.org/2000/svg"
@@ -1238,13 +1232,34 @@ export default function Index({ posts, tags, pagination }: Props) {
                                         >
                                           {/**/}
                                           <div className="h-global-transition-all h-contact-form-shortcode h-global-transition h-global-transition-all">
-                                            <form name="contact" method="POST" data-netlify="true" action="/">
-                                              <input type="hidden" name="form-name" value="contact" />
+                                            <form
+                                              name="contact"
+                                              method="POST"
+                                              data-netlify="true"
+                                              action="/"
+                                            >
+                                              <input
+                                                type="hidden"
+                                                name="form-name"
+                                                value="contact"
+                                              />
                                               <p>
-                                                <label>Tu nombre: <input type="text" name="name" /></label>
+                                                <label>
+                                                  Tu nombre:{" "}
+                                                  <input
+                                                    type="text"
+                                                    name="name"
+                                                  />
+                                                </label>
                                               </p>
                                               <p>
-                                                <label>Tu email: <input type="email" name="email" /></label>
+                                                <label>
+                                                  Tu email:{" "}
+                                                  <input
+                                                    type="email"
+                                                    name="email"
+                                                  />
+                                                </label>
                                               </p>
                                               {/* <p>
                                               <label>Your Role: <select name="role[]" multiple></label>
@@ -1254,10 +1269,15 @@ export default function Index({ posts, tags, pagination }: Props) {
                                               </select>
                                             </p> */}
                                               <p>
-                                                <label>Mensaje: <textarea name="message"></textarea></label>
+                                                <label>
+                                                  Mensaje:{" "}
+                                                  <textarea name="message"></textarea>
+                                                </label>
                                               </p>
                                               <p>
-                                                <button type="submit">Enviar</button>
+                                                <button type="submit">
+                                                  Enviar
+                                                </button>
                                               </p>
                                             </form>
                                           </div>
@@ -1320,9 +1340,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                             <div className="h-global-transition-all">
                               © 2021 AMPA CEP Primer Marqués del Túria. Created
                               for free using WordPress and
-                            <a target="_blank" href="https://colibriwp.com/">
+                              <a target="_blank" href="https://colibriwp.com/">
                                 Colibri
-                            </a>
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -1414,7 +1434,7 @@ export default function Index({ posts, tags, pagination }: Props) {
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-274">
                         <a href="/ampa/">
                           AMPA
-                        <div
+                          <div
                             data-skip-smooth-scroll={1}
                             className="arrow-wrapper arrow-right"
                           >
@@ -1455,46 +1475,30 @@ export default function Index({ posts, tags, pagination }: Props) {
                         </a>
                         <ul className="sub-menu">
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-499">
-                            <a href="/ampa/">
-                              Acerca del AMPA
-                          </a>
+                            <a href="/ampa/">Acerca del AMPA</a>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-358">
-                            <a href="/ampa/asociate/">
-                              Asóciate
-                          </a>
+                            <a href="/ampa/asociate/">Asóciate</a>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-315">
-                            <a href="/ampa/calendario/">
-                              Calendario
-                          </a>
+                            <a href="/ampa/calendario/">Calendario</a>
                           </li>
                         </ul>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-275">
-                        <a href="/extraescolares/">
-                          Extraescolares
-                      </a>
+                        <a href="/extraescolares/">Extraescolares</a>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-276">
-                        <a href="/comedor/">
-                          Comedor
-                      </a>
+                        <a href="/comedor/">Comedor</a>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-277">
-                        <a href="/colegio-2/">
-                          Colegio
-                      </a>
+                        <a href="/colegio-2/">Colegio</a>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-278">
-                        <a href="/blog/">
-                          Noticias
-                      </a>
+                        <a href="/blog/">Noticias</a>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382">
-                        <a href="/contacto/">
-                          Contacto
-                      </a>
+                        <a href="/contacto/">Contacto</a>
                       </li>
                     </ul>
                   </div>
@@ -1531,5 +1535,6 @@ export default function Index({ posts, tags, pagination }: Props) {
           className="offscreen-overlay style-10-offscreenOverlay style-local-137-h10-offscreenOverlay"
         />
       </div>
-    </div>);
+    </div>
+  );
 }
