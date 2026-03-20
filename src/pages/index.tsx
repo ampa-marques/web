@@ -1497,6 +1497,9 @@ export default function Index({ posts, tags, pagination }: Props) {
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-278">
                         <a href="/blog/">Noticias</a>
                       </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-279">
+                        <a href="/transparencia/">Transparencia</a>
+                      </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-382">
                         <a href="/contacto/">Contacto</a>
                       </li>
