@@ -5,3 +5,5 @@ menu:
     name: Colegio
   - slug: posts
     name: Noticias
+  - slug: transparencia
+    name: Transparencia
